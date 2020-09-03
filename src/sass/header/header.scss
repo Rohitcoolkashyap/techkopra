@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+
+    .header__logoImg {
+        height: 46px;
+    }
+
+    .header__title1 {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 7px;
+        text-align: center;
+    }
+
+    .header__title2 {
+        font-size: 18px;
+        padding: 10px;
+        color: #ffffff;
+        font-weight: 500;
+        background-color: #0D2750;
+        border: 1px solid #0D2750;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .header__middle {
+        margin: 10px;
+    }
+
+    // header menu
+
+
+    .header__menu__img {
+        height: 21px;
+    }
+}

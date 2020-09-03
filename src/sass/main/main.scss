@@ -1,0 +1,73 @@
+.main {
+    margin: 10px 10px;
+
+    .main__title {
+        margin-top: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main_searchIcon {
+        color: #0D2750;
+    }
+
+    .main__heading {
+        padding: .50rem .65rem;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 56px;
+    }
+
+    .main__windowCardRow {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        align-items: stretch;
+
+    }
+}
+
+.windowCard {
+
+    margin-top: 5px;
+    margin-right: 40px;
+    max-width: 33.333%;
+    // padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 23.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+
+}
+
+.windowCard__title {
+
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.windowCard__img {
+    height: 100px;
+    border: 1px solid #0D2750;
+    background: linear-gradient(134.05deg, rgba(34, 80, 13, 0) 1.02%, rgba(13, 39, 80, 0.095) 101.5%);
+
+}
+
+.windowCard__more {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    color: #0D2750;
+    font-weight: 500;
+
+}

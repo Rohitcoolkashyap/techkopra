@@ -1,0 +1,33 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+
+
+
+
+    >input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 10px;
+
+
+        &:focus {
+
+
+            width: 100%;
+            border: 1px solid rgb(84, 84, 235);
+        }
+    }
+
+    .search__icon {
+        color: gray;
+        margin-left: 10px;
+    }
+
+
+}
